@@ -202,7 +202,7 @@ class FastmriKneePromptMrDataTransform:
         """
         self.mask_func = mask_func
         self.use_seed = use_seed
-        self.uniform_train_resolution = (384,384)#uniform_train_resolution
+        self.uniform_train_resolution = (256,256)#uniform_train_resolution
     def _crop_if_needed(self, image):
         w_from = h_from = 0
         
